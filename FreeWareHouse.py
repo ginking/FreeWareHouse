@@ -30,6 +30,7 @@ try:
     if os.path.exists(db_filename):
         pass
     else: db_filename = ''
+    f.close()
 except IOError:
     pass
 
